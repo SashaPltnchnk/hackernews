@@ -1,9 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import LinkList from './LinkList'
+
+import './App.css'
 
 const App: React.FC = () => {
   return (
-    <div> let's start</div>
+    <LinkList />
   );
 }
 
